@@ -6,7 +6,7 @@
 <!-- образец работы: от поисковиков закрыт, перед запуском строку убрать -->
 <meta name="robots" content="noindex">
 <title>ГАРАЖ 60 — автосервис в Пскове · Скажем, когда заберёте машину</title>
-<meta name="description" content="Автосервис в Пскове: называем срок до начала работ и держим его. Диагностика, ТО, ходовая, электрика. Смета фиксируется, доплат нет.">
+<meta name="description" content="Автосервис в Пскове: называем срок до начала работ и держим его. Диагностика, ТО, ходовая, электрика. Смета фиксируется, доплат нет.">
 <meta name="theme-color" content="#17150F">
 <meta property="og:title" content="МОМЕНТ — автосервис в Пскове">
 <meta property="og:description" content="Скажем, когда заберёте машину. И вернём в этот срок.">
@@ -139,7 +139,7 @@ h1,h2,h3{text-wrap:balance}
     linear-gradient(180deg,rgba(23,21,15,.82) 0%,transparent 18%,transparent 70%,var(--soot) 100%),
     radial-gradient(720px 400px at 74% 36%,rgba(255,196,0,.1),transparent 66%);
 }
-.hero-in{position:relative;z-index:2;padding:clamp(44px,6vw,88px) 0 0;min-height:min(86vh,820px);display:flex;flex-direction:column;justify-content:center}
+.hero-in{position:relative;z-index:2;padding:clamp(44px,6vw,88px) clamp(16px,4vw,36px) 0;min-height:min(86vh,820px);display:flex;flex-direction:column;justify-content:center}
 .hero h1{max-width:none;font-size:var(--m6)}
 .hero h1 span{color:var(--mark);display:block}
 .hero-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(24px,4vw,52px);align-items:center}
@@ -672,7 +672,7 @@ footer{border-top:1px solid var(--line);padding:var(--s5) 0 var(--s3)}
         <input id="fCar" type="text" placeholder="Марка, модель, год">
       </div>
       <div class="fld">
-        <label for="fWhat">С чем приедете</label>
+        <label for="fWhat">С чем приедете</label>
         <select id="fWhat">
           <option value="">Выберите</option>
           <option>Диагностика — что-то не так, но непонятно что</option>
@@ -686,7 +686,7 @@ footer{border-top:1px solid var(--line);padding:var(--s5) 0 var(--s3)}
       </div>
       <label class="consent">
         <input type="checkbox" id="fOk">
-        <span>Согласен на <a href="soglasie.html" target="_blank" rel="noopener">обработку персональных данных</a>. Номер нужен только для записи.</span>
+        <span>Согласен на <a href="soglasie.html" target="_blank" rel="noopener">обработку персональных данных</a>. Номер нужен только для записи.</span>
       </label>
       <button type="submit" class="btn btn-mark" style="width:100%">
         Оставить заявку
@@ -841,8 +841,8 @@ footer{border-top:1px solid var(--line);padding:var(--s5) 0 var(--s3)}
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <div class="kicker">как это выглядит</div>
-        <h2>Работа,<br>а не обещания</h2>
+        <div class="kicker">как это выглядит</div>
+        <h2>Работа,<br>а не обещания</h2>
       </div>
       <p class="sec-sub">Снимаем процесс, чтобы вы видели, что происходит с машиной, пока она у нас. Ролики отправляем в мессенджер по ходу ремонта.</p>
     </div>
